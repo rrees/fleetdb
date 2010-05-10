@@ -350,6 +350,8 @@
     (assert-not pass)
     (assert= actual 6)))
 
+(deftest "checked-write: call function on fail")
+
 (deftest "checked-write: pass"
   (let [elem               {"id" 8 "lt" "h"}
         [new-db1 [pass result]]
